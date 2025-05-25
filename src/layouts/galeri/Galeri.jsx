@@ -7,6 +7,8 @@ import galeri3 from '@/assets/galeri3.JPG'
 import galeri4 from '@/assets/galeri4.JPG'
 import galeri5 from '@/assets/galeri5.JPG'
 import { motion } from "motion/react"
+import element1 from "@/assets/element1.png"
+import element2 from "@/assets/element2.png"
 
 
 export default function Galeri() {
@@ -24,9 +26,23 @@ export default function Galeri() {
                     }
                 }}
             >
-                <div className='text-white text-5xl sm:text-7xl text-center mb-20'>
+                <div className='text-white text-5xl sm:text-7xl text-center mb-14 relative'>
                     <p className='font-gloock'>Our</p>
                     <p className='font-great text-5xl sm:text-8xl -mt-3 sm:-mt-4 text-primary'>Gallery</p>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{
+                            opacity: 1,
+                            transition: {
+                                duration: 0.9,
+                                delay: 1.5,
+                                ease: [0, 0.9, 0.9, 1]
+                            }
+                        }}
+                    >
+                        <img src={element1} alt="" className='w-1/3 absolute left-12 top-20' />
+                        <img src={element2} alt="" className='w-1/3 absolute right-12 top-20' />
+                    </motion.div>
                 </div>
             </motion.div>
             <div className='grid sm:grid-cols-4 gap-2 sm:gap-5'>

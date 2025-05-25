@@ -2,6 +2,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import location from "@/assets/location.png"
 import { animate, motion, useInView, useMotionValue, useTransform } from "motion/react"
+import { Button } from '@/components/ui/button'
+import batikRight from "@/assets/batik-right.png"
+import batikLeft from "@/assets/batik-left.png"
 
 export default function Jadwal() {
     const eventTime = new Date("July 27 2025").getTime()
@@ -46,9 +49,18 @@ export default function Jadwal() {
         }
     }, [isInView, isInView1, count, count1])
     return (
-        <div className='bg-radial from-primary to-primary-foreground'>
+        <div className='bg-radial from-primary to-primary-foreground relative overflow-hidden'>
+            <img src={batikLeft} alt="" className='absolute -top-5 -left-25 w-1/2' />
+            <img src={batikRight} alt="" className='absolute -top-5 -right-25 w-1/2' />
+
+            <img src={batikLeft} alt="" className='absolute top-300 -left-25 w-1/2' />
+            <img src={batikRight} alt="" className='absolute top-300 -right-25 w-1/2' />
+
+            <img src={batikLeft} alt="" className='absolute -bottom-5 -left-25 w-1/2' />
+            <img src={batikRight} alt="" className='absolute -bottom-5 -right-25 w-1/2' />
+
             <div className='flex flex-col justify-center text-center w-full px-14 py-12 sm:px-52 sm:py-32 font-diphy text-5xl sm:text-7xl text-white space-y-6'>
-                <div className='bg-background rounded-2xl py-10 px-8 sm:py-20'>
+                <div className='bg-background rounded-2xl py-10 px-8 sm:py-20 z-10'>
                     <motion.div
                         initial={{ opacity: 0.5, scale: 0 }}
                         whileInView={{
@@ -99,7 +111,7 @@ export default function Jadwal() {
                         </div>
                     </motion.div>
                 </div>
-                <div className='grid sm:grid-cols-2 gap-7'>
+                <div className='grid sm:grid-cols-2 gap-7 z-10'>
                     <div className='bg-background rounded-2xl py-20 px-10'>
                         <motion.div
                             initial={{ opacity: 0.5, scale: 0 }}
@@ -173,6 +185,11 @@ export default function Jadwal() {
                         <div className='space-y-4'>
                             <p className='text-5xl'>Gedung Kubung 13</p>
                             <p className='text-2xl'>Jln. Ix Korong, Lubuk Sikarah, Kota Solok, Sumatera Barat</p>
+                            <Button className='text-black'>
+                                <a href="https://maps.app.goo.gl/imyp4RkPpJ3zmJKx6">
+                                    Lihat Lokasi
+                                </a>
+                            </Button>
                         </div>
                     </div>
                     <div className='bg-background rounded-2xl py-20 px-10'>
@@ -248,6 +265,11 @@ export default function Jadwal() {
                         <div className='space-y-4'>
                             <p className='text-5xl'>Gedung Kubung 13</p>
                             <p className='text-2xl'>Jln. Ix Korong, Lubuk Sikarah, Kota Solok, Sumatera Barat</p>
+                            <Button className='text-black'>
+                                <a href="https://maps.app.goo.gl/imyp4RkPpJ3zmJKx6">
+                                    Lihat Lokasi
+                                </a>
+                            </Button>
                         </div>
                     </div>
                 </div>
