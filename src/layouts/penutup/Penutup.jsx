@@ -1,0 +1,23 @@
+import React from 'react'
+import galeri from "@/assets/galeri.JPG"
+
+export default function Penutup() {
+    return (
+        <div className='bg-background'>
+            <div
+                className='h-screen bg-cover bg-center relative'
+                style={{ backgroundImage: `url(${galeri})` }}
+            >
+                <div className='absolute inset-0 bg-linear-to-t from-background to-transparent'></div>
+            </div >
+            <div className='grid grid-cols-1 space-y-6 justify-center items-end text-5xl sm:text-7xl text-white text-center px-14 sm:px-52'>
+                <p className='font-great text-primary z-10 -mt-20'>Terima Kasih</p>
+                <p className='font-diphy text-xl sm:text-2xl'>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restunya untuk pernikahan kami. </p>
+                <p className='font-diphy text-xl sm:text-2xl'>Atas doa & restunya, kami ucapkan terima kasih.</p>
+                <div className='my-10 sm:my-20'>
+                    <p className='font-diphy text-primary'>Mega & Panji</p>
+                </div>
+            </div>
+        </div>
+    )
+}
