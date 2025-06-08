@@ -81,7 +81,7 @@ export default function Jadwal() {
                         zIndex: 1
                     }}
                 ></div>
-                <div className='bg-background rounded-2xl py-10 px-8 sm:py-20 z-10'>
+                <div className='bg-primary/80 rounded-2xl py-10 px-8 sm:py-20 z-10'>
                     <motion.div
                         initial={{ opacity: 0.5, scale: 0 }}
                         whileInView={{
@@ -96,7 +96,7 @@ export default function Jadwal() {
                     >
                         <div className='mb-8'>
                             <p className='font-gloock'>Wedding</p>
-                            <p className='font-great text-primary'>Event</p>
+                            <p className='font-great text-primary-foreground'>Event</p>
                         </div>
                     </motion.div>
 
@@ -133,7 +133,7 @@ export default function Jadwal() {
                     </motion.div>
                 </div>
                 <div className='grid sm:grid-cols-2 gap-7 z-10'>
-                    <div className='bg-center bg-cover rounded-2xl py-10 px-5' style={{
+                    <div className='border-2 border-primary bg-center bg-cover rounded-2xl py-10 px-5' style={{
                         backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('${akad}')`
                     }}>
                         <motion.div
@@ -215,7 +215,7 @@ export default function Jadwal() {
                             </Button>
                         </div>
                     </div>
-                    <div className='bg-center bg-cover rounded-2xl py-10 px-5' style={{
+                    <div className='border-2 border-primary bg-center bg-cover rounded-2xl py-10 px-5' style={{
                         backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('${resepsi}')`
                     }}>
                         <motion.div
