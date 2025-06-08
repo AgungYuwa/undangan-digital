@@ -59,7 +59,7 @@ export default function Galeri() {
                         }
                     }}
                 >
-                    <img src={galeri} alt="" className='border-2 border-primary  rounded-2xl sm:rounded-4xl transition hover:scale-110 ' />
+                    <img src={galeri} alt="" className='border-2 border-primary rounded-2xl sm:rounded-4xl transition hover:scale-125 ' />
                 </motion.div>
 
                 <motion.div

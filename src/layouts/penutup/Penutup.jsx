@@ -1,12 +1,12 @@
 import React from 'react'
-import galeri from "@/assets/galeri.JPG"
+import galeri2 from '@/assets/galeri2.JPG'
 
 export default function Penutup() {
     return (
         <div className='bg-background'>
             <div
                 className='h-screen bg-cover bg-center relative'
-                style={{ backgroundImage: `url(${galeri})` }}
+                style={{ backgroundImage: `url(${galeri2})` }}
             >
                 <div className='absolute inset-0 bg-linear-to-t from-background to-transparent'></div>
             </div >

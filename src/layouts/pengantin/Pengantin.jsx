@@ -25,7 +25,7 @@ export default function Pengantin() {
                     }
                 }}
             >
-                <div className='text-white text-5xl sm:text-7xl text-center mb-10'>
+                <div className='text-white text-5xl sm:text-7xl text-center mb-5'>
                     <p className='font-gloock'>Bride</p>
                     <p className='font-great text-7xl sm:text-8xl -mt-3 -mb-10 sm:-mt-4 sm:-mb-14 text-primary'>&</p>
                     <p className='font-gloock'>Groom</p>
@@ -43,7 +43,7 @@ export default function Pengantin() {
                     }
                 }}
             >
-                <div className='text-white font-diphy text-center text-xl sm:text-2xl flex justify-center mb-20 sm:mb-36'>
+                <div className='text-white font-diphy text-center text-sm sm:text-2xl flex justify-center mb-5 sm:mb-36'>
                     <div className='sm:w-1/2'>
                         <p>Assalamualaikum Wr. Wb. <br />Dengan memohon Rahmat & Ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan putra-putri kami:</p>
                     </div>
@@ -65,15 +65,15 @@ export default function Pengantin() {
                 <div className='flex flex-col sm:flex-row justify-center gap-5 sm:gap-10 items-center text-white mb-10 text-center'>
                     <img src={bride} alt="" className="bg-gradient-to-b from-primary to-primary-foreground w-2/3 sm:w-1/3 rounded-tl-full rounded-tr-full p-1 hover:scale-110 transition ease-in-out duration-300" />
                     <div className='text-xl sm:text-2xl font-diphy'>
-                        <p className='text-5xl text-center mb-1 sm:text-6xl'>Panji Ravidra</p>
-                        <p>Putra dari Bapak Afnizul
+                        <p className='text-2xl text-center mb-1 sm:text-6xl'>Panji Ravidra</p>
+                        <p className='text-sm'>Putra dari Bapak Afnizul
                             & Ibu Wasmarni</p>
                     </div>
                 </div>
             </motion.div>
 
             <div className='text-center text-primary'>
-                <p className='font-great text-9xl mb-7'>&</p>
+                <p className='font-great text-6xl mb-3'>&</p>
             </div>
 
             <motion.div
@@ -91,8 +91,8 @@ export default function Pengantin() {
                 <div className='flex flex-col sm:flex-row justify-center gap-5 sm:gap-10 items-center text-white text-center mb-20'>
                     <img src={groom} alt="" className="bg-gradient-to-b from-primary to-primary-foreground w-2/3 sm:w-1/3 rounded-tl-full rounded-tr-full p-1 hover:scale-110 transition ease-in-out duration-300" />
                     <div className='text-xl sm:text-xl font-diphy'>
-                        <p className='text-5xl text-center mb-2 sm:text-6xl'>Mega Aulia Hidayat</p>
-                        <p>Putra dari Bapak M. Hidayat
+                        <p className='text-2xl text-center mb-2 sm:text-6xl'>Mega Aulia Hidayat</p>
+                        <p className='text-sm'>Putra dari Bapak M. Hidayat
                             & Ibu Mardelina</p>
                     </div>
                 </div>
