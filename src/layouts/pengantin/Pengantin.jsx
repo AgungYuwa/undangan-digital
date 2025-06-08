@@ -26,9 +26,9 @@ export default function Pengantin() {
                 }}
             >
                 <div className='text-white text-5xl sm:text-7xl text-center mb-5'>
-                    <p className='font-gloock'>Bride</p>
-                    <p className='font-great text-7xl sm:text-8xl -mt-3 -mb-10 sm:-mt-4 sm:-mb-14 text-primary'>&</p>
                     <p className='font-gloock'>Groom</p>
+                    <p className='font-great text-7xl sm:text-8xl -mt-3 -mb-10 sm:-mt-4 sm:-mb-14 text-primary'>&</p>
+                    <p className='font-gloock'>Bride</p>
                 </div>
             </motion.div>
 
