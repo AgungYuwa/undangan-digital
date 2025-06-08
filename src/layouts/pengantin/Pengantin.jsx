@@ -62,10 +62,10 @@ export default function Pengantin() {
                     }
                 }}
             >
-                <div className='flex flex-col sm:flex-row justify-center gap-5 sm:gap-10 items-center text-white mb-10 text-center'>
-                    <img src={bride} alt="" className="bg-gradient-to-b from-primary to-primary-foreground w-2/3 sm:w-1/3 rounded-tl-full rounded-tr-full p-1 hover:scale-110 transition ease-in-out duration-300" />
-                    <div className='text-xl sm:text-2xl font-diphy'>
-                        <p className='text-2xl text-center mb-1 sm:text-6xl'>Panji Ravidra</p>
+                <div className='flex flex-col sm:flex-row justify-center gap-5 sm:gap-10 items-center text-white mb-15 text-center'>
+                    <img src={bride} alt="" className="bg-gradient-to-b from-primary to-primary-foreground w-10/12 sm:w-1/3 rounded-tl-full rounded-tr-full p-1 hover:scale-110 transition ease-in-out duration-300" />
+                    <div className='-mt-26 text-xl w-9/12 sm:text-2xl font-diphy'>
+                        <p className='text-xl text-center mb-1 sm:text-6xl'>Panji Ravidra</p>
                         <p className='text-sm'>Putra dari Bapak Afnizul
                             & Ibu Wasmarni</p>
                     </div>
@@ -88,10 +88,10 @@ export default function Pengantin() {
                     }
                 }}
             >
-                <div className='flex flex-col sm:flex-row justify-center gap-5 sm:gap-10 items-center text-white text-center mb-20'>
-                    <img src={groom} alt="" className="bg-gradient-to-b from-primary to-primary-foreground w-2/3 sm:w-1/3 rounded-tl-full rounded-tr-full p-1 hover:scale-110 transition ease-in-out duration-300" />
-                    <div className='text-xl sm:text-xl font-diphy'>
-                        <p className='text-2xl text-center mb-2 sm:text-6xl'>Mega Aulia Hidayat</p>
+                <div className='flex flex-col sm:flex-row justify-center gap-5 sm:gap-10 items-center text-white text-center full mb-20'>
+                    <img src={groom} alt="" className="bg-gradient-to-b from-primary to-primary-foreground w-10/12 sm:w-1/3 rounded-tl-full rounded-tr-full p-1 hover:scale-110 transition ease-in-out duration-300" />
+                    <div className='-mt-27 w-9/12 text-xl sm:text-xl font-diphy'>
+                        <p className='text-xl text-center mb-2 sm:text-6xl'>Mega Aulia Hidayat</p>
                         <p className='text-sm'>Putra dari Bapak M. Hidayat
                             & Ibu Mardelina</p>
                     </div>

@@ -49,15 +49,15 @@ export default function Jadwal() {
         }
     }, [isInView, isInView1, count, count1])
     return (
-        <div className='bg-radial from-primary to-primary-foreground relative overflow-hidden'>
-            <img src={batikLeft} alt="" className='absolute -top-5 -left-25 w-1/2' />
+        <div className=' relative overflow-hidden'>
+            {/* <img src={batikLeft} alt="" className='absolute -top-5 -left-25 w-1/2' />
             <img src={batikRight} alt="" className='absolute -top-5 -right-25 w-1/2' />
 
             <img src={batikLeft} alt="" className='absolute top-300 -left-25 w-1/2' />
             <img src={batikRight} alt="" className='absolute top-300 -right-25 w-1/2' />
 
             <img src={batikLeft} alt="" className='absolute -bottom-5 -left-25 w-1/2' />
-            <img src={batikRight} alt="" className='absolute -bottom-5 -right-25 w-1/2' />
+            <img src={batikRight} alt="" className='absolute -bottom-5 -right-25 w-1/2' /> */}
 
             <div className='flex flex-col justify-center text-center w-full px-14 py-12 sm:px-52 sm:py-32 font-diphy text-5xl sm:text-7xl text-white space-y-6'>
                 <div className='bg-background rounded-2xl py-10 px-8 sm:py-20 z-10'>
@@ -91,7 +91,7 @@ export default function Jadwal() {
                             }
                         }}
                     >
-                        <div className='flex justify-evenly items-center gap-10 sm:gap-16 text-xl'>
+                        <div className='flex justify-evenly items-center gap-5 sm:gap-16 text-xl'>
                             <div className='flex flex-col'>
                                 <p className='font-gloock tracking-wider'>{timer.days}</p>
                                 <p className='text-sm sm:text-4xl'>Hari</p>
@@ -211,7 +211,7 @@ export default function Jadwal() {
                         </motion.div>
                         <div className='space-y-4'>
                             <motion.p
-                                ref={ref}
+                                ref={ref1}
                                 className='font-gloock text-5xl'
                                 initial={{ opacity: 0, scale: 0, y: 30 }}
                                 whileInView={{
@@ -224,7 +224,7 @@ export default function Jadwal() {
                                 }}
                                 viewport={{ amount: 0.7 }}
                             >
-                                {rounded}
+                                {rounded1}
                             </motion.p>
                             <motion.p
                                 className='text-xl'
