@@ -38,7 +38,7 @@ export default function Gift() {
                         </div>
                     </motion.div>
                     <div className='text-sm sm:text-2xl mb-8'>
-                        <p>Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
+                        <p>Doa restu Bapak/Ibuk/Saudara/i merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih, Bapak/Ibuk/Saudara/i dapat memberi kado secara cashless.</p>
                     </div>
                     <div className='grid sm:grid-cols-2 gap-4'>
                         <motion.div
