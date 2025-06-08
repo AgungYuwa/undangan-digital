@@ -16,7 +16,7 @@ export default function Gift() {
             <img src={batikRight} alt="" className='absolute -bottom-30 -right-25 w-1/2' /> */}
 
             <div className='flex flex-col justify-center text-center w-full px-14 py-12 sm:px-52 sm:py-32 font-diphy text-5xl sm:text-7xl text-white space-y-6'>
-                <div className='bg-cover bg-center rounded-2xl py-10 px-10 sm:py-20 sm:px-20 z-10' style={{
+                <div className='border-2 border-primary bg-cover bg-center rounded-2xl py-10 px-10 sm:py-20 sm:px-20 z-10' style={{
                     backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('${gift}')`
                 }}>
 

@@ -12,8 +12,8 @@ export default function Penutup() {
             </div >
             <div className='grid grid-cols-1 space-y-6 justify-center items-end text-4xl sm:text-7xl text-white text-center px-14 sm:px-52'>
                 <p className='font-great text-primary z-10 -mt-20 text-5xl'>Terima Kasih</p>
-                <p className='font-diphy text-xl sm:text-xl'>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restunya untuk pernikahan kami. </p>
-                <p className='font-diphy text-xl sm:text-2xl'>Atas doa & restunya, kami ucapkan terima kasih.</p>
+                <p className='font-diphy text-sm sm:text-xl'>Suatu kebahagian & kehormatan bagi kami, apabila Bapak/Ibuk/Saudara/i, berkenan hadir</p>
+                <p className='font-diphy text-sm sm:text-xl'>Atas doa & restunya, kami ucapkan terima kasih.</p>
                 <div className='my-10 sm:my-20'>
                     <p className='font-diphy text-primary'>Mega & Panji</p>
                 </div>
