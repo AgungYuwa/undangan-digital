@@ -108,10 +108,10 @@ export default function Header() {
                         <div className='absolute inset-0 bg-linear-to-t from-background to-transparent'></div>
                     </div>
                 </div>
-                <div className='absolute bottom-30 flex justify-center items-end text-5xl sm:text-7xl text-white text-center px-14 sm:px-52'>
+                <div className='absolute bottom-30 flex justify-center items-end text-5xl sm:text-7xl text-white text-center px-12 sm:px-52 w-full'>
                     <div className="text-white font-diphy text-center">
                         <p className="text-xl">The Wedding Of</p>
-                        <p className="text-5xl sm:text-6xl mb-5 font-medium"> Mega & Panji</p>
+                        <p className="text-4xl sm:text-6xl mb-5 font-medium"> Mega & Panji</p>
                         <p className="text-xl">27 . 07 . 2025</p>
                     </div>
                 </div>
