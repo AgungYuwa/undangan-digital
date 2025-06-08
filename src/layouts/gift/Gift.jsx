@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { motion } from "motion/react"
 import batikRight from "@/assets/batik-right.png"
 import batikLeft from "@/assets/batik-left.png"
+import gift from "@/assets/gift.JPG"
 
 export default function Gift() {
     return (
@@ -15,7 +16,10 @@ export default function Gift() {
             <img src={batikRight} alt="" className='absolute -bottom-30 -right-25 w-1/2' /> */}
 
             <div className='flex flex-col justify-center text-center w-full px-14 py-12 sm:px-52 sm:py-32 font-diphy text-5xl sm:text-7xl text-white space-y-6'>
-                <div className='bg-background rounded-2xl py-10 px-10 sm:py-20 sm:px-20 z-10'>
+                <div className='bg-cover bg-center rounded-2xl py-10 px-10 sm:py-20 sm:px-20 z-10' style={{
+                    backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('${gift}')`
+                }}>
+
                     <motion.div
                         initial={{ opacity: 0.5, scale: 0 }}
                         whileInView={{

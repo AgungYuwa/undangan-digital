@@ -5,6 +5,9 @@ import { animate, motion, useInView, useMotionValue, useTransform } from "motion
 import { Button } from '@/components/ui/button'
 import batikRight from "@/assets/batik-right.png"
 import batikLeft from "@/assets/batik-left.png"
+import akad from "@/assets/akad.JPG"
+import resepsi from "@/assets/resepsi.JPG"
+
 
 export default function Jadwal() {
     const eventTime = new Date("July 27 2025").getTime()
@@ -112,7 +115,9 @@ export default function Jadwal() {
                     </motion.div>
                 </div>
                 <div className='grid sm:grid-cols-2 gap-7 z-10'>
-                    <div className='bg-background rounded-2xl py-10 px-5'>
+                    <div className='bg-center bg-cover rounded-2xl py-10 px-5' style={{
+                        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('${akad}')`
+                    }}>
                         <motion.div
                             initial={{ opacity: 0.5, scale: 0 }}
                             whileInView={{
@@ -192,7 +197,9 @@ export default function Jadwal() {
                             </Button>
                         </div>
                     </div>
-                    <div className='bg-background rounded-2xl py-10 px-5'>
+                    <div className='bg-center bg-cover rounded-2xl py-10 px-5' style={{
+                        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('${resepsi}')`
+                    }}>
                         <motion.div
                             initial={{ opacity: 0.5, scale: 0 }}
                             whileInView={{
@@ -256,7 +263,7 @@ export default function Jadwal() {
                                 }}
                                 viewport={{ amount: 0.7 }}
                             >
-                                Pukul 10.00 - Sekesai
+                                Pukul 10.00 - Selesai
                             </motion.p>
                         </div>
                         <div className='my-5 '>
@@ -273,7 +280,7 @@ export default function Jadwal() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
