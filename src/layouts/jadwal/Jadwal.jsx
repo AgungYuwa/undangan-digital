@@ -112,7 +112,7 @@ export default function Jadwal() {
                     </motion.div>
                 </div>
                 <div className='grid sm:grid-cols-2 gap-7 z-10'>
-                    <div className='bg-background rounded-2xl py-20 px-10'>
+                    <div className='bg-background rounded-2xl py-10 px-5'>
                         <motion.div
                             initial={{ opacity: 0.5, scale: 0 }}
                             whileInView={{
@@ -132,7 +132,7 @@ export default function Jadwal() {
                         <div className='space-y-4'>
                             <motion.p
                                 ref={ref}
-                                className='font-gloock text-7xl'
+                                className='font-gloock text-5xl'
                                 initial={{ opacity: 0, scale: 0, y: 30 }}
                                 whileInView={{
                                     opacity: 1,
@@ -147,7 +147,7 @@ export default function Jadwal() {
                                 {rounded}
                             </motion.p>
                             <motion.p
-                                className='text-3xl'
+                                className='text-xl'
                                 initial={{ opacity: 0, scale: 0, y: 30 }}
                                 whileInView={{
                                     opacity: 1,
@@ -163,7 +163,7 @@ export default function Jadwal() {
                                 Juli 2025
                             </motion.p>
                             <motion.p
-                                className='text-3xl'
+                                className='text-xl'
                                 initial={{ opacity: 0, scale: 0, y: 30 }}
                                 whileInView={{
                                     opacity: 1,
@@ -179,12 +179,12 @@ export default function Jadwal() {
                                 Pukul 08.00 - 10.00 WIB
                             </motion.p>
                         </div>
-                        <div className='my-20'>
+                        <div className='my-5 '>
                             <img src={location} alt="" />
                         </div>
                         <div className='space-y-4'>
-                            <p className='text-5xl'>Gedung Kubung 13</p>
-                            <p className='text-2xl'>Jln. Ix Korong, Lubuk Sikarah, Kota Solok, Sumatera Barat</p>
+                            <p className='text-2xl'>Gedung Kubung 13</p>
+                            <p className='text-xl'>Jln. Ix Korong, Lubuk Sikarah, Kota Solok, Sumatera Barat</p>
                             <Button className='text-black'>
                                 <a href="https://maps.app.goo.gl/imyp4RkPpJ3zmJKx6">
                                     Lihat Lokasi
