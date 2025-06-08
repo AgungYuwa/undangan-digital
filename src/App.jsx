@@ -13,7 +13,6 @@ import Penutup from './layouts/penutup/Penutup'
 function App() {
   return (
     <div className='overflow-x-hidden h-screen'>
-
       <Header />
       <Ayat />
       <Pengantin />
