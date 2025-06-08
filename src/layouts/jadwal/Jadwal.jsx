@@ -7,6 +7,7 @@ import batikRight from "@/assets/batik-right.png"
 import batikLeft from "@/assets/batik-left.png"
 import akad from "@/assets/akad.JPG"
 import resepsi from "@/assets/resepsi.JPG"
+import cover from "@/assets/cover.JPG"
 
 
 export default function Jadwal() {
@@ -52,7 +53,7 @@ export default function Jadwal() {
         }
     }, [isInView, isInView1, count, count1])
     return (
-        <div className=' relative overflow-hidden'>
+        <div className='relative overflow-hidden'>
             {/* <img src={batikLeft} alt="" className='absolute -top-5 -left-25 w-1/2' />
             <img src={batikRight} alt="" className='absolute -top-5 -right-25 w-1/2' />
 
@@ -62,7 +63,24 @@ export default function Jadwal() {
             <img src={batikLeft} alt="" className='absolute -bottom-5 -left-25 w-1/2' />
             <img src={batikRight} alt="" className='absolute -bottom-5 -right-25 w-1/2' /> */}
 
-            <div className='flex flex-col justify-center text-center w-full px-14 py-12 sm:px-52 sm:py-32 font-diphy text-5xl sm:text-7xl text-white space-y-6'>
+            <div className='flex flex-col justify-center text-center w-full px-14 py-12 sm:px-52 sm:py-32 font-diphy text-5xl sm:text-7xl text-white space-y-6 '>
+                <div
+                    className='absolute inset-0 bg-center bg-cover'
+                    style={{
+                        backgroundImage: `url('${akad}')`,
+                        opacity: 0.2, // set opacity gambar di sini
+                        zIndex: 0
+                    }}
+                ></div>
+                <div
+                    className='absolute inset-0'
+                    style={{
+                        backgroundImage: `
+        linear-gradient(to bottom, rgba(0,0,0,0.5), transparent 50%, transparent 50%, rgba(0,0,0,0.5))
+      `,
+                        zIndex: 1
+                    }}
+                ></div>
                 <div className='bg-background rounded-2xl py-10 px-8 sm:py-20 z-10'>
                     <motion.div
                         initial={{ opacity: 0.5, scale: 0 }}

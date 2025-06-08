@@ -99,8 +99,8 @@ export default function Pengantin() {
             </motion.div>
 
             <div>
-                <img src={ornamentR} alt="" className="w-1/3 -left-5 -bottom-4 sm:w-1/7 absolute sm:-left-6 sm:-bottom-12 -z-10" />
-                <img src={ornamentL} alt="" className="w-1/3 -right-5 -bottom-4 sm:w-1/7 absolute sm:-right-6 sm:-bottom-12 -z-10" />
+                <img src={ornamentR} alt="" className="w-1/3 -left-5 -bottom-4 sm:w-1/7 absolute sm:-left-6 sm:-bottom-12 z-10" />
+                <img src={ornamentL} alt="" className="w-1/3 -right-5 -bottom-4 sm:w-1/7 absolute sm:-right-6 sm:-bottom-12 z-10" />
             </div>
         </div>
     )
