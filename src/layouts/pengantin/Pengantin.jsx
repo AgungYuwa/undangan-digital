@@ -92,7 +92,7 @@ export default function Pengantin() {
                     <img src={groom} alt="" className="bg-gradient-to-b from-primary to-primary-foreground w-10/12 sm:w-1/3 rounded-tl-full rounded-tr-full p-1 hover:scale-110 transition ease-in-out duration-300" />
                     <div className='-mt-27 w-9/12 text-xl sm:text-xl font-diphy'>
                         <p className='text-xl text-center mb-2 sm:text-6xl'>Mega Aulia Hidayat</p>
-                        <p className='text-sm'>Putra dari Bapak M. Hidayat
+                        <p className='text-sm'>Putri dari Bapak M. Hidayat
                             & Ibu Mardelina</p>
                     </div>
                 </div>
