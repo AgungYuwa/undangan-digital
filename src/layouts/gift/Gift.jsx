@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import mandiri from "@/assets/mandiri.png"
-import dana from "@/assets/dana.png"
+import bri from "@/assets/bri.png"
 import bni from "@/assets/bni.png"
 import { Button } from '@/components/ui/button'
 import { motion } from "motion/react"
@@ -73,11 +73,12 @@ export default function Gift() {
                             }}
                         >
                             <div className='bg-gray-200 flex flex-col justify-center items-center p-2 sm:p-5 rounded-2xl sm:rounded-4xl inset-shadow-sm inset-shadow-gray-700 inset-ring-1 inset-ring-gray-900/50'>
-                                <img src={bni} alt="" className='scale-50' />
+                                <img src={bri} alt="" className='scale-50' />
                                 <div className='text-sm sm:text-xl text-black font-diphy tracking-widest space-y-2 p-1'>
                                     <div>
-                                        <p className='text-xs'>1910574611</p>
-                                        <p className='text-xssm:text-xl'>Mega Aulia Hidayat
+                                        <p className='text-xs'>009101070419503
+                                        </p>
+                                        <p className='text-xssm:text-xl'>Panji Ravidra
                                         </p>
                                     </div>
                                     <Button size='xs' className='bg-background text-white hover:bg-background/70 cursor-pointer text-xs px-2 py-1'>Salin Kode</Button>
@@ -97,7 +98,7 @@ export default function Gift() {
                             }}
                         >
                             <div className='bg-gray-200 flex flex-col justify-center items-center p-2 sm:p-5 rounded-2xl sm:rounded-4xl inset-shadow-sm inset-shadow-gray-700 inset-ring-1 inset-ring-gray-900/50'>
-                                <img src={dana} alt="" className='scale-50' />
+                                <img src={bni} alt="" className='scale-50' />
                                 <div className='text-sm sm:text-xl text-black font-diphy tracking-widest space-y-2 p-1'>
                                     <div>
                                         <p className='text-xs'>082170584400</p>
